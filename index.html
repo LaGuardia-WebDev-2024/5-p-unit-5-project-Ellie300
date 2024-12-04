@@ -16,17 +16,153 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: rgb(133, 15, 1);
+        font-family: "Lavishly Yours", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      img {
+        border: 9px solid rgb(254, 250, 224);padding:0px; magin:0px
+        object-fit: cover;
+      }
+      p {
+        color: rgb(125, 16, 9);
+        font-size: 20px;
+      }
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+      h2 {
+        font-size: 15px;
+        color: rgb(133, 15, 1);
+      }
+      p {
+        font-size: 25px;
+        font-weight: bold;
+      }
 
-  </style>
-</head>
-<body>
+      .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px;
+      }
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
 
- 
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
 
-</body>
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+      .flip-card-back {
+        background-color: rgb(254, 250, 224);
+        color: rgb(254, 250, 224);
+        transform: rotateY(180deg);
+      }
+      .mom {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Winter</h1>
+    <iframe
+      style="border-radius: 12px"
+      src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0Yxoavh5qJV?utm_source=generator"
+      width="100%"
+      height="352"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+
+    <div class="mom">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://cdn.christmaslightsetc.com/images/productdetail/90448/Red-Mini-Lights-AS188700929.jpg?w=555&h=555"
+              style="width: 285px; height: 185px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h2>CHRISTMAS</h2>
+            <p>Christmas Tree!</p>
+          </div>
+        </div>
+      </div>
+      <div clas="mom">
+        
+     
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://m.media-amazon.com/images/I/81vSrTEbN1L.jpg"
+              style="width: 285px; height: 185px"
+            />
+          </div>
+          <div class="flip-card-back">
+            <h2>CHRISTMAS</h2>
+            <p>Decorations!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <h2>CHRISTMAS</h2>
+      <p>We love CHRISTMAS</p>
+    </div>
+<div class="mom">
+  
+      </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img
+            src="https://discovernyc.tours/wp-content/uploads/2023/06/Christmas-Ornaments-at-Macys-NYC-Guide.png"
+            style="width: 285px; height: 185px"
+          />
+        </div>
+        <div class="flip-card-back">
+          <h2>CHRISTMAS</h2>
+          <p>We love CHRISTMAS</p>
+        </div>
+      </div>
+    </div>
+    <p>
+      <span>Thanks for coming to look at my website!</span>
+    </p>
+  </body>
 </html>
